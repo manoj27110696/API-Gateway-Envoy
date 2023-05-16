@@ -13,7 +13,7 @@ namespace MoviesAPI.Controllers
     {
         private static readonly string[] Movies = new[]
         {
-            "Die Another Day", "Top Gun", "Grease", "Dil Bechara", "Jurassic Park"
+            "Die Another Day", "Top Gun", "Grease", "Titanic", "Jurassic Park"
         };
 
     

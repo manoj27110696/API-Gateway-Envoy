@@ -1,0 +1,11 @@
+{
+    "yaml.schemas": {
+        "file:///c%3A/Users/manoj/.vscode/extensions/docsmsft.docs-yaml-1.0.0/dist/toc.schema.json": "/toc\\.yml/i",
+        "https://github.com/jcchavezs/envoy-config-schema/releases/download/v1.21.0/v3_Bootstrap.json": [
+            "envoy-config.yaml",
+            "file:///c%3A/Users/manoj/Downloads/envoy-demo.yaml",
+            "file:///c%3A/Users/manoj/source/repos/API-Gateway-Envoy/Envoy/envoy-demo.yaml",
+            "file:///c%3A/Users/manoj/source/repos/API-Gateway-Envoy/Envoy/envoy.yaml"
+        ]
+    }
+}
