@@ -8,6 +8,8 @@ services:
       - "10000:10000"
     volumes:
       - ./Envoy/envoy.yaml:/etc/envoy/envoy.yaml
+      - ./Envoy/https.crt:/etc/ssl/certs/https.crt
+      - ./Envoy/key.pem:/etc/ssl/certs/key.pem
   moviesapi:
     build: MoviesAPI/
     ports:

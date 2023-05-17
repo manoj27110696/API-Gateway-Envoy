@@ -78,6 +78,17 @@ static_resources:
                 route:
                   prefix_rewrite: "/movies"
                   cluster: movies_service
+      transport_socket:
+        name: envoy.transport_sockets.tls
+        typed_config:
+          "@type": type.googleapis.com/envoy.extensions.transport_sockets.tls.v3.DownstreamTlsContext
+          common_tls_context:
+            tls_certificates:
+            - certificate_chain:
+                filename: /etc/ssl/certs/https.crt
+              private_key:
+                filename: /etc/ssl/certs/key.pem           
+       
   clusters:
   - name: service_envoyproxy_io
     type: LOGICAL_DNS
